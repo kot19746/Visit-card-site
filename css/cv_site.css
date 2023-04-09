@@ -1,0 +1,140 @@
+
+@font-face {
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-family: "OpenSans Regular";
+}
+
+@font-face {
+    src: url("../fonts/OpenSans-Italic.ttf");
+    font-family: "OpenSans Italic";
+}
+
+@font-face {
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-family: "OpenSans Bold";
+}
+
+.head {
+    display: block;
+    padding: 20px; text-align: center;
+    border-bottom: 1px solid aliceblue;
+}
+
+.head a {
+    display: inline-block; /*ecarte des mots*/
+    padding: 15px; /*taille d'ecarte*/
+}
+
+body {
+    background: url("../images/starry-night-sky.jpg")
+}
+
+.chapeau {
+    color: #009900;  display:  block;
+    font-size: 300%;
+    margin-right: auto; margin-left: 18%;
+    font-family: "OpenSans Bold", Helvetica, Arial, sans-serif;
+}
+
+p {
+    color: aliceblue;
+    font-size: 120%; padding: 0;
+    margin-left: 23%; margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: #efef06; transition: 1s;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00ff00;
+}
+
+.photo {
+    display: block; width: 50%; height: 50%; /*taille d'image*/
+    margin-left: auto; margin-right: auto;
+    /*border-width: 50px; border-style: solid;
+    border-color: grey;*/
+}
+
+.razdel { 
+    margin-top: 10px; margin-left: 23%;
+    margin-bottom: 10px;
+     color: #00cc00; font-size: 100%;
+    border-left: solid #cc9900 20px;
+    padding-left: 10px;
+}
+
+.text { 
+    font-size: 100%; margin-top: 5px;
+    padding: 10px 30px; margin-left: 23%;
+    color: aliceblue;
+}
+
+.kontakt { 
+    margin-top: 5px; margin-bottom: 5px;
+    font-size: 80%;
+}
+
+.razdel_projets {
+    display: flex;
+    justify-content: start;
+    margin-left: 20%;
+}
+
+.projet_image {
+    margin-bottom: 50px;
+    border: solid 3px;
+    border-color: aliceblue;
+    transition: 1s;
+}
+
+.projet_image:hover {
+    transform: scale(1.2);
+}
+
+.projet_description {
+    padding-left: 50px;
+    color: #f80505; font-size: 100%;
+}
+
+.footer {
+    padding: 40px 40px 0 40px;
+    display: block; text-align: center;
+    border-top: solid aliceblue 1px;
+    margin-top: 40px;
+    margin-left: auto; margin-right: auto;
+}
+
+.d1 {    /*bouton de up-retour*/
+    width: 65px;
+    height: 65px;
+    background: rgb(25, 85, 175);
+    display: flex; align-items: center;
+    justify-content: center;
+    border: solid aliceblue 2px;
+    border-radius: 25%;
+}
+
+.icone {
+    margin-top: 20px;
+    transition: 1s;
+}
+
+.icone:hover {
+    transform: scale(1.2);
+}
+
+.ecole {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.year {
+    margin-left: 15px;
+    color: #00cc00;
+}
