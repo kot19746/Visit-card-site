@@ -138,3 +138,9 @@ a:hover {
     margin-left: 15px;
     color: #00cc00;
 }
+
+@media screen and (max-width: 760px) {
+    .razdel_projets {
+        display: block;
+    }
+}
